@@ -1,0 +1,247 @@
+
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="portfolio.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://kit.fontawesome.com/2761b21562.js" crossorigin="anonymous"></script>
+</head>
+</head>
+<body>
+
+    <div class="headar">
+        <div class="container">
+                <h2>portfo<span>lio.</span></h2>
+            <div class="navlinks" id="links"> 
+                <div class="icon1"><i class="fa-solid fa-square-xmark" onclick="hidemenu()"></i></div>
+                <ul>
+                    <li class="active"><a href="">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">My Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="icon2" id="links"><i class="fa-solid fa-bars" onclick="showmenu()"></i></div>
+        </div>
+    </div>
+ 
+	
+<section class="main"> 
+    <div class="w3-center w3-animate-left" id="photo">
+        <img src="PhotoVijay(1).jpg" alt="Vijay" >
+    </div>
+	<div class="anime">
+	    <h2>Hey There!<nbsp>   </nbsp><span>I am</span> </h1>
+	    <h1 >Vijay Chimmuri</h1>
+        <p>Web Development Enthusiast, Enjoy in creating good-looking gorgeous Web Designs</p><br>
+        	
+    </div> 
+</section>
+
+<!------------About----- -------->
+
+<div class="about" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-1">
+                <h1>About Me!</h1>
+            </div>
+            <div class="col-2"><br>
+                <p>A dedicated and enthusiastic graduated student with a passion for web development, DevOps Engineer
+                    and Software Engineering with an expertise in creating responsive web designs and enhance the knowledge 
+                    and skills in the field of Computer Science and implement the experience gained in this field to develop 
+                    challenging projects and strive to make a difference in ever-changing field of computers.</p>
+
+
+
+                    <div class="tabs">
+                        <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('interests')">Interests</p>
+                    </div>
+                    <div class="content active-tab" id="education">
+                        <ul>
+                            <li>
+                                <span>SSC</span><br>
+                                Zilla Parishad High School<br>
+                                CGPA:9.2
+                            </li>
+                            <li>
+                                <span>Diploma</span><br>
+                                Indur Institute of Engineering and Technology<br>
+                                CGPA:7.5
+                            </li>
+                            <li>
+                                <span>B-Tech</span><br>
+                                Malla Reddy Institute Of Technology And Science<br>
+                                CGPA:7.0
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="content" id="interests">
+                        <ul>
+                            <li>
+                                <span>Website Designing</span><br>Building Responsive Web Sites
+                            </li>
+                            <li>
+                                <span>Activities</span><br>Cycling, Swimming and Travelling
+                            </li>
+                            <li>
+                                <span>Playing Games</span><br>Interested in Chess and Carrom
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!----------------------------------skills-------------------------------------------->
+
+<section class="skills" id="skills">
+    <div class="max-width">
+        <h2 class="title">My skills!</h2>
+        <div class="skills-content">
+            <div class="column left" style="display: block;">
+                <div class="text">My creative skills & Experiences.</div>
+                <p>I worked as an intern at Zentree Labs as an embedded intern, where I gained knowledge of multiple tools like Git, GitHub, Excel, and Power BI. I worked on the project, which is related to embedded systems, and I have good knowledge of DevOps.<br>
+
+I am a web development enthusiast. Interested in creating responsive web designs. HTML, CSS, and JavaScript are my front-end languages, while on the back-end, I code in Python and C programming. Till now, I have designed a responsive website for Instagram clone and Tic Tae Toe games.  </p>
+            </div>
+            <div class="column right">
+                <div class="bars">
+                    <div class="info">
+                        <span>HTML</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="line html"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>CSS</span>
+                        <span>60%</span>
+                    </div>
+                    <div class="line css"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>Git</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="line js"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>Python</span>
+                        <span>70%</span>
+                    </div>
+                    <div class="line python"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>MySQL</span>
+                        <span>75%</span>
+                    </div>
+                    <div class="line mysql"></div>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<!----------------------------------Projects-------------------------------------------->
+<section class="projects" id="projects">
+    <div class="box">
+        <h1 class="title">My Projects!</h1>
+        <div class="project-list">
+            <div class="project">
+                <img src="project1 (1).png" alt="project1" loading="lazy" class="image1">
+                <div class="layer">
+                    <h3>Identify Child Facial Expression using SVM Algorithm</h3>
+                    <p>Determining the ability of children to focus in very young age is something that is important for adults to know for them to understand the child's learning capabilities. The development of their attention skills during their younger years affects how much excellence they can perform during their adolescence stage.</p>
+                    <a href="https://github.com/VijayChimmuri/Identify_Child_Facial_Expression_using_SVM_Algorithm"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="project2.jpg" alt="project1" loading="lazy" class="image2">
+                <div class="layer">
+                    <h3>Student Performance Prediction in Online Courses using Machine Learning Algorithms</h3>
+                    <p>The main aim of the system is to predict the future performance of the student using certain data of the student such as pervious semester marks, attendance records, etc.</p>
+                    <a href="https://github.com/VijayChimmuri/Student_Performance_Prediction_in_Online_Courses_using_Machine_Learning_Algorithms-"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="project3 (1).png" alt="project1" loading="lazy" class="image3">
+                <div class="layer">
+                    <h3>Mobile Voting Application</h3>
+                    <p>The project deals with the development of a Mobile Voting Application with an effective secure and fear free voting model. The voting model provides a new system which fulfill the security requirement of voting process.</p>
+		  <a href="https://github.com/VijayChimmuri/Mobile_Voting_Application"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!----------------------------------Contact Form-------------------------------------------->
+<div id="contact" id="contact">
+    <div class="room">
+        <div class="left">
+            <div class="contact-left">
+                <h1 class="title">Contact Me!</h1>
+                <p><i class="fa-regular fa-envelope"></i>chimmurivijay442001@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+91-6300616083</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/vijay-chimmuri-2744a4221/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href=" https://github.com/VijayChimmuri "><i class="fa-brands fa-github"></i></a>
+                   
+                </div>
+                <a  class="btn" href=""C:\Users\chimm\Desktop\port\Vijay ChimmuriD.pdf"" download>Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form action="mailto:msworld1123@gmail.com" method="get">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn2">Submit</button>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Developed with <i class="fa-solid fa-heart"></i> by <span>Vijay.</span></p>
+    </div>
+</div>
+
+
+
+
+    <script>
+        var links=document.getElementById("links")
+        function showmenu(){
+            links.style.right="-30";
+        }
+        function hidemenu()
+        {
+            links.style.right="-240px";
+        }
+
+
+        var tablinks=document.getElementsByClassName("tab-links");
+        var contents=document.getElementsByClassName("content");
+        function opentab(name){
+            for(tablink of tablinks){
+             tablink.classList.remove("active-link");
+            }
+            for(tabcontent of contents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(name).classList.add("active-tab");
+        }
+    </script>
+</body>
+
+
+</html>
